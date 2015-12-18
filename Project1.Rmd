@@ -2,12 +2,14 @@
 title: 'Reproducible Research: Peer Assessment 1'
 author: "Barry Obondo"
 date: "December 17, 2015"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ## Background
 This work was prepared as part of Peer Assessment 1 for Reproducible Research, Data Science Specialization, Johns Hopkins University on Coursera.  
-***
+
 
 
 ## Introduction
@@ -42,8 +44,8 @@ Set working directory (not shown) and load required packages
 
 ```{r, echo=FALSE}
 # setwd("C:/Users/jabondo/desktop/Dropbox/Coursera_DSS/5_ReproRsch/project1")
-# setwd("C:/Users/barry_000/Desktop/Dropbox/Coursera_DSS/5_ReproRsch/project1")
- setwd("C:/data/Dropbox/Coursera_DSS/5_ReproRsch/project1")
+ setwd("C:/Users/barry_000/Desktop/Dropbox/Coursera_DSS/5_ReproRsch/project1")
+# setwd("C:/data/Dropbox/Coursera_DSS/5_ReproRsch/project1")
 ```
 
 ```{r, warning=FALSE}
